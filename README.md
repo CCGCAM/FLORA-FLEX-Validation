@@ -1,4 +1,4 @@
-# FLORA — FLEX Leaf Observation and Retrieval via Hybrid Approaches
+# FLORA: FLEX Leaf Observation and Retrieval via Hybrid Machine Learning Approaches
 
 **FLORA** is a multi-sensor calibration and validation (Cal/Val) framework supporting **ESA’s FLEX mission**, targeting:
 
