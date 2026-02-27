@@ -2,7 +2,7 @@
 
 **FLORA** is a multi-sensor calibration and validation (Cal/Val) framework supporting **ESA’s FLEX mission**, targeting:
 
--    **FLEX Level-2B**: Sun-Induced Fluorescence (**SIF**)
+-   **FLEX Level-2B**: Sun-Induced Fluorescence (**SIF**)
 
 -   **FLEX Level-2C** vegetation products: **LCC, LAI, LCARC, fPAR** FLEX-2026_ppt_template_ccamino
 
@@ -18,7 +18,7 @@ FLORA is designed around **four contrasting European ecosystems**, including ICO
 
 **Netherlands**
 
--    **NL-Loobos** (ICOS Scots pine forest; continuous eddy covariance fluxes)
+-   **NL-Loobos** (ICOS Scots pine forest; continuous eddy covariance fluxes)
 
 -   **Speulderbos** (mixed temperate forest; complementary forest scaling site)
 
@@ -34,7 +34,7 @@ FLORA uses a **multi-scale validation strategy**, moving from leaf/canopy measur
 
 Key components:
 
--    **Field campaigns** to measure biochemical and structural traits (e.g., chlorophyll, LAI, water content, leaf physiology).
+-   **Field campaigns** to measure biochemical and structural traits (e.g., chlorophyll, LAI, water content, leaf physiology).
 
 -   **Aerial campaigns (UAV)** for high-resolution hyperspectral/thermal mapping and scaling.
 
@@ -47,18 +47,6 @@ Key components:
 ## ESU-based sampling design (Elementary Sampling Units)
 
 To support statistically robust field design and upscaling, FLORA defines **Elementary Sampling Units (ESUs)** to quantify spatial variability (e.g., NDRE / red-edge metrics, PRI), identify homogeneous zones within each **300 m FLEX pixel**, and guide aerial/field sampling strategies in heterogeneous landscapes.
-
-## Repository structure
-
-
-FLORA-FLEX-validation/
-├─ README.md
-├─ data/                  # optional (keep large data out; use links)
-├─ notebooks/             # Rmd / Quarto notebooks
-├─ scripts/               # scrips and codes
-├─ outputs/               # figures, maps, tables (optional)
-├─ docs/                  # protocol notes, campaign checklists
-└─ LICENSE
 
 ## Citation
 
