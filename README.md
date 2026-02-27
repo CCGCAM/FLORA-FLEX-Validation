@@ -2,11 +2,11 @@
 
 **FLORA** is a multi-sensor calibration and validation (Cal/Val) framework supporting **ESA’s FLEX mission**, targeting:
 
--   **FLEX Level-2B**: Sun-Induced Fluorescence (**SIF**)
+-   **FLEX Level-2B**: Sun-Induced Fluorescence (**SIF**).
 
--   **FLEX Level-2C** vegetation products: **LCC, LAI, LCARC, fPAR** FLEX-2026_ppt_template_ccamino
+-   **FLEX Level-2C** vegetation products: **LCC, LAI, LCARC, fPAR**.
 
-The project integrates **field sampling**, **UAV campaigns**, **eddy covariance flux towers**, **radiative transfer modelling**, and **multi-sensor satellite observations** to quantify spatial heterogeneity and enable robust upscaling to the **FLEX 300 m footprint**. FLEX-2026_ppt_template_ccamino
+The project integrates **field sampling**, **UAV campaigns**, **eddy covariance flux towers**, **radiative transfer modelling**, and **multi-sensor satellite observations** to quantify spatial heterogeneity and enable robust upscaling to the **FLEX 300 m footprint**.
 
 ## Why FLORA?
 
@@ -14,7 +14,7 @@ Vegetation controls carbon and water cycles across scales, and **FLEX SIF provid
 
 ## Study sites
 
-FLORA is designed around **four contrasting European ecosystems**, including ICOS reference infrastructure: FLEX-2026_ppt_template_ccamino
+FLORA is designed around **four contrasting European ecosystems**, including ICOS reference infrastructure:
 
 **Netherlands**
 
@@ -30,7 +30,7 @@ FLORA is designed around **four contrasting European ecosystems**, including ICO
 
 ## Validation concept and multi-scale workflow
 
-FLORA uses a **multi-scale validation strategy**, moving from leaf/canopy measurements to hyperspectral satellite observations and finally to **FLEX-scale (300 m) validation**. FLEX-2026_ppt_template_ccamino
+FLORA uses a **multi-scale validation strategy**, moving from leaf/canopy measurements to hyperspectral satellite observations and finally to **FLEX-scale (300 m) validation**.
 
 Key components:
 
@@ -47,6 +47,14 @@ Key components:
 ## ESU-based sampling design (Elementary Sampling Units)
 
 To support statistically robust field design and upscaling, FLORA defines **Elementary Sampling Units (ESUs)** to quantify spatial variability (e.g., NDRE / red-edge metrics, PRI), identify homogeneous zones within each **300 m FLEX pixel**, and guide aerial/field sampling strategies in heterogeneous landscapes.
+
+## Synergy with HYDRA-EO (ESA)
+
+Several methodological components developed in FLORA are aligned with and reusable for **HYDRA-EO**, including: - ESU-based sampling design for heterogeneous landscapes - Multi-sensor scaling (UAV → hyperspectral satellites → FLEX 300 m) - Hybrid RTM–ML retrieval concepts for vegetation traits and physiology - SIF-informed assessment of photosynthetic function for robust validation
+
+HYDRA-EO workflow repository: <https://github.com/CCGCAM/HYDRA-EO-workflow>
+
+[HYDRA-EO website](https://ccgcam.github.io/HydraEO/)
 
 ## Citation
 
