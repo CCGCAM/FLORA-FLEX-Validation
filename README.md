@@ -62,7 +62,7 @@ FLORA-FLEX-validation/
 
 ## Citation
 
-If you use **ToolsRTM** and **SCOPEinR**packages, please cite the following references:
+If you use **ToolsRTM** and **SCOPEinR** packages, please cite the following references:
 
 Camino et al., (2024). RT-Simulator: An Online Platform to Simulate Canopy Reflectance from Biochemical and Structural Plant Properties Using Radiative Transfer Models, *IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium*, Athens, Greece, 2024, pp. 2811-2814, [doi: 10.1109/IGARSS53475.2024.10642442](https://ieeexplore.ieee.org/document/10642442).
 
