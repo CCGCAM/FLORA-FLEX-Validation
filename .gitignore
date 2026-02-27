@@ -1,0 +1,21 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+## remove mac files
+.DS_Store
+.DS_Store
+**/.DS_Store
+._*
+# exclude everything in folders
+
+*.zip
+*.nc
+*.RDataTmp*
+.DS_Store
+**/.DS_Store
+*.tiff
+data/EnMAP/*
+data/Vector_files/*
+data/Sentinel-2/Series/*
+Tables/results/*
